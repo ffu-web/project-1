@@ -1,0 +1,48 @@
+header {
+    margin-bottom: 64px;
+}
+h1 {
+    font-size: 48px;
+    color: rgb(71, 62, 62);
+    margin: 12px 0;
+}
+#desc {
+    margin: 8px;
+}
+a {
+    padding: 12px 48px;
+    background-color: rgb(167, 1, 78);
+    color: white;
+    border: 1px solid rgb(167, 1, 78);
+    font-size: 24px;
+    display: inline-block;
+    margin: 0;
+}
+a:hover {
+    background-color: rgb(187, 13, 90);
+    text-decoration: none;
+}
+ol {
+    list-style: none;
+    width: 500px;
+    margin: 36px auto 0 auto;
+    padding: 0;
+}
+li {
+    padding: 16px;
+    margin: 36px;
+    box-shadow: 1px 1px 4px rgba(0, 0,0, 0.2);
+    background-color: rgb(223, 136, 124);
+    border-radius: 6px;
+}
+h2 {
+    color: rgb(78, 3, 5);
+    font-family: 'Oswald', sans-serif;
+}
+main p {
+    margin: 12px;
+    color: rgb(71, 29, 22);
+}
+.highlight {
+    background-color: rgb(216, 96, 81);
+}
