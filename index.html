@@ -1,29 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Web</title>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="icon" href="/Images/bbc logo.png" type="image/x-icon">
-</head>
+    <title>Travel Agency</title>
 
+    <!-- Kani waa css kii guud -->
+    <link rel="stylesheet" href="/shared.css">
+    <!-- Kana waa css kii style ka ama boga koobaad -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Kana waa tailwind. FG:kaliya waxa aan u adeegsaday animation ahaan. -->
+    <link rel="stylesheet" href="tailwind.min.css">
+    <!-- Kana Google Fonts. -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="shortcut icon" href="/Icons/favicon.png" type="image/png">
+</head>
 <body>
+    <!-- Header kii  -->
+    <header>
+        <div class="header">
+            <div>
+                <a href="#" id="logo">Travel Agency</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Highlights</a></li>
+                    <li><a href="#">Places</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main kii -->
     <main>
-        <img src="/Images/challenges-trophy.jpg" alt="challenges">
-        <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dolores officia, eos eaque beatae corporis!
-        </p>
+        <div class="box">
+            <h1>Hamse's Travel Agency.</h1>
+            <p>You can find the most beautiful and pleasant places at the best prices with special discounts, you choose the place we will guide you all the way to wait, get your place now.!</p>
+            <a href="#" class="transform hover:-translate-y-2">Explore More</a>
+        </div>
+        <section id="Higlights">
+                <div class="h4">Highlights</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quibusdam laborum. Maiores <br> autem id sunt deserunt porro corrupti.</p>
+                <div>
+                    <div class="items ">
+                        <ul>
+                            <img src="/img/place1.jpg" class="transform hover:-translate-y-2" alt="">
+                            <li><p>Maimi <strong>Usa</strong></p></li>
+                        </ul>                        
+                    </div>
+                    <div class="items">
+                        <ul>
+                            <img src="/img/place2.jpg"class="transform hover:-translate-y-2" alt="">
+                            <li><p>Munich <Strong>Germany</Strong></p></li>
+                        </ul>   
+                    </div>
+                    <div class="items ">
+                        <ul>
+                            <img src="/img/place3.jpg" class="transform hover:-translate-y-2" alt="">
+                            <li><p> Barcelona <Strong>Spain</Strong></p></li>
+                        </ul> 
+                    </div>
+                </div>
+        </section> 
+        <section id="Services">
+            <div class="services">
+                Services
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto vitae iure expedita <br> dolore laboriosam nesciunt rerum aliquam.</p>
+            <div class="service-items">
+                <div class="boxs transform hover:scale-110 cursor-pointer">
+                    <img src="/Icons/passport_80px.png" alt="Passport">
+                    <ul><li> <h3>Passport</h3></li></ul>
+                </div>
+                <div class="boxs transform hover:scale-110 cursor-pointer">
+                    <img src="/Icons/visa_60px.png" alt="Passport">
+                    <ul><li> <h3>Passport</h3></li></ul>
+                </div>
+                <div class="boxs transform hover:scale-110 cursor-pointer">
+                    <img src="/Icons/airblane.png" alt="Passport">
+                    <ul><li> <h3>Passport</h3></li></ul>
+                </div>
+                <div class="boxs transform hover:scale-110 cursor-pointer">
+                    <img src="/Icons/bus.png" alt="Passport">
+                    <ul><li> <h3>Passport</h3></li></ul>
+                </div>
+            </div><br><br>
+            <div class="service-items">
+                <div class="boxs transform hover:scale-110 cursor-pointer">
+                    <img src="/Icons/bus.png" alt="Passport">
+                    <ul><li> <h3>Passport</h3></li></ul>
+                </div>
+                <div class="boxs transform hover:scale-110 cursor-pointer">
+                    <img src="/Icons/image_60px.png" alt="Passport">
+                    <ul><li> <h3>Passport</h3></li></ul>
+                </div>
+                <div class="boxs transform hover:scale-110 cursor-pointer">
+                    <img src="/Icons/bout.png" alt="Passport">
+                    <ul><li> <h3>Passport</h3></li></ul>
+                </div>
+                <div class="boxs transform hover:scale-110 cursor-pointer">
+                    <img src="/Icons/beach_60px.png" alt="Passport">
+                    <ul><li> <h3>Passport</h3></li></ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="tour">
+            <div class="Tour">
+                Vedio Tour
+            </div>
+           <div class="video">
+            <video width="620" height="240" controls>
+                <source src="/assets/video/video.mp4" type="video/mp4">
+              </video>
+           </div>
+           <div class="title">
+               <h4>This One of The <span> Most <br> Beutifull Place The People </span> <br> Very Intersting.</h4>
+                <a href="#" class="transform hover:-translate-y-2 btn">Order Your Ticket</a>
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>Expore More <a href="weekone.html">Full Week</a></p>
+
+    <!-- Footer Kii -->
+    <footer id="footer">
+        <div class="footer">
+            <div class="icons">
+                <img src="/Icons/facebook.png" alt="">
+                <img src="/Icons/instagram.png" alt="">
+                <img src="/Icons/twitter.png" alt="">
+                <img src="/Icons/whatsapp.png" alt="">
+            </div>
+            <p>@ All Rirht Reseved By <a href="#">Hamse Abdi.</a></p>
+        </div>
     </footer>
 </body>
-
 </html>

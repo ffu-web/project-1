@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url('/img/home1.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Main */
+
+.box{
+    color: white;
+    background-color: rgba(0, 0, 0,0.4);
+    width: 800px;
+    padding: 25px;
+    position: relative;
+    top: -427px;
+    left: 270px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    padding: 25px 0px 0px 0px;
+}
+.box p{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 0px 0px 25px 0px;
+}
+
+.box a{
+    text-decoration: none;
+    background-color: rgb(0, 136, 190);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    transition: 0.5s;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.box a:hover{
+    color: rgb(0, 136, 190);
+    background-color: white;
+    margin: 10px;
+}
+
+/* Highlights */
+
+#Higlights{
+  margin-top: -240px;
+  padding-top: 40px;
+  height: 100vh;
+  text-align: center;
+}
+
+#Higlights .items{
+    display: inline-flex;
+    margin-top: 23px;
+    height: 40px;
+}
+
+#Higlights .items ul {
+    text-align: left;
+}
+
+#Higlights .items ul li p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+
+#Higlights .h4{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+#Higlights img{
+    cursor: pointer;
+
+}
+.mr{
+    margin-top: -18px;
+}
+
+strong{
+    color: rgb(4, 203, 221);
+}
+
+/* Services */
+
+
+#Services{
+    height: 635px;
+    margin-top: 50px;
+    background: linear-gradient(90deg, rgb(1, 141, 146) 0%, rgb(0, 133, 138) 35%, rgba(0, 135, 212, 0.735) 100%);
+
+}
+
+
+#Services .services{
+    text-align: center;
+    font-size: 37px;
+    padding-top: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+#Services p{
+    text-align: center;
+    padding-top: 5px;
+    color: beige;
+}
+
+
+#Services .boxs{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 250px;
+    margin-left: 70px;
+    top: 70px;
+    background-color: rgb(0, 99, 124);
+    text-align: center;
+    display: inline-flex;
+    border-radius: 3px;
+}
+#Services .boxs img{
+    padding-top: 16px;
+    height: 80px;
+    margin-left: 25px;
+}
+#Services .boxs ul li h3{
+    margin-top: 85px;
+    margin-left: -60px;
+    color: white;
+    font-weight: 600;
+}
+
+/* Tour */
+
+#tour{
+    height: 600px;
+}
+
+.Tour{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.video{
+    position: relative;
+    top: 70px;
+    padding-left: 350px;
+} 
+.title{
+ text-align: center;
+ position: relative;
+ top: 7rem;
+}
+
+.title h4{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.title span{
+    font-weight: 700;
+    color: rgb(1, 189, 195);
+}
+.title .btn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 16px;
+}
+
+.title .btn:hover{
+    background-color: rgb(1, 189, 195);
+}
